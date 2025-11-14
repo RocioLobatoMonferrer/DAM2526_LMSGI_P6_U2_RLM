@@ -88,11 +88,6 @@ section header h3 {
   font-weight: normal;
   margin-top: 0;
 }
-/* RLM - sol10*/
-.cabecera-color header h2 {
-  background-color: #74750D;
-}
-
 /* ====== Artículos ====== */
 article {
   margin-top: 20px;
@@ -145,4 +140,8 @@ strong {
   border-width: 100;
   border-radius: 20px;
   /* RLM - sol6*/box-shadow: 10px 10px 21px -1px rgba(30,66,85,0.74);
+}
+.color {
+  /*RLM sol10*/
+  background-color: #74750D;
 }
