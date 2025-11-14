@@ -1,0 +1,148 @@
+/* ====== Estilos base ====== */
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* RLM - RETO*/background-color: rgb(255, 234, 184);
+  color: #222;
+}
+
+/* ====== Cabecera ====== */
+header {
+  background-color: #0d3b66;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header img {
+  /* RLM - sol8*/height: 120px;
+  width: auto;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+  /*RLM - sol4*/font-size: 2.8rem;
+  /*RLM - sol4*/color: #ffeab8;
+}
+
+/* ====== Navegación ====== */
+nav {
+  background-color: #145da0;
+  text-align: center;
+  padding: 8px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  /* RLM - sol3 */  font-size: 1.7em;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  /* RLM - sol7 */background-color: rgb(255, 234, 184);
+  color: #0d3b66;
+}
+
+/* ====== Contenido principal ====== */
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 20px auto;
+  /* RLM - RETO*/box-shadow: 10px 10px 10px -0.5px rgba(30,66,85,0.74);
+}
+
+/* ====== Secciones ====== */
+section {
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section header h2 {
+  /* RLM - sol 1*/ color: #ffffff;
+  margin-bottom: 5px;
+}
+
+section header h3 {
+  /* RLM - sol2 */ color: rgb(211, 211, 211);
+  font-weight: normal;
+  margin-top: 0;
+}
+/* RLM - sol10*/
+.cabecera-color header h2 {
+  background-color: #74750D;
+}
+
+/* ====== Artículos ====== */
+article {
+  margin-top: 20px;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 15px;
+}
+
+article h3 {
+  color: #145da0;
+  margin-bottom: 10px;
+}
+
+article img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  display: block;
+  margin: 10px auto;
+}
+
+article p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* ====== Pie de página ====== */
+footer {
+  background-color: #0d3b66;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* ====== Extras ====== */
+em {
+  /* RLM - sol9*/color: rgb(255, 234, 184);
+}
+
+strong {
+  color: #ff6b35;
+}
+
+/* RLM sol5 */article figure {
+  background-color: #0077b6;
+  padding: 2.5em;
+  margin: 2em;
+  border-width: 100;
+  border-radius: 20px;
+  /* RLM - sol6*/box-shadow: 10px 10px 21px -1px rgba(30,66,85,0.74);
+}
